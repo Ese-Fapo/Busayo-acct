@@ -9,14 +9,14 @@ export default function About() {
         <div>
           <SectionTitle
             eyebrow="About us"
-            title="Your Reliable Finance Partner in Nigeria"
-            subtitle="We combine accounting accuracy with practical business support to help clients make better decisions every day."
+            title="Your Trusted Partner for Tax, Business & Property Services"
+            subtitle="We combine professional expertise with practical solutions to help individuals and businesses navigate tax, company registration, and property documentation."
           />
           <p>
-            Our team supports businesses across Nigeria with accounting,
-            compliance, payroll, tax, and strategic advisory. We focus on
-            clear communication, fast turnaround, and solutions that match your
-            growth stage.
+            Acc. Busayo provides accurate tax calculations, complete business
+            registration support, and professional property surveys. We help
+            our clients stay compliant, set up businesses properly, and make
+            informed decisions about their real estate investments.
           </p>
         </div>
 

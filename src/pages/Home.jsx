@@ -21,20 +21,19 @@ export default function Home() {
           <div className="hero__content">
             <div className="hero__intro">
               <p className="hero__eyebrow">
-                Lagos, Nigeria • Executive accounting for ambitious businesses
+                Lagos, Nigeria • Professional financial & property services
               </p>
               <span className="hero__pill">
-                Corporate Accounting • Advisory • Compliance
+                Tax Calculation • Business Registration • Property Survey
               </span>
             </div>
 
-            <h1>{formatText("Executive-grade financial clarity for ambitious businesses.")}</h1>
+            <h1>{formatText("Expert tax calculations, business setup, and property surveys.")}</h1>
 
             <p className="hero__lede">
-              Acc. Busayo delivers a calm, premium finance experience for
-              founders, executives, and growing organisations that need
-              accurate records, confident compliance, and strategic financial
-              direction.
+              Acc. Busayo helps individuals and businesses navigate tax obligations,
+              company registration, and property documentation with professional
+              guidance and accurate results.
             </p>
 
             <div className="hero__actions">
@@ -60,34 +59,34 @@ export default function Home() {
             <div className="hero__feature-list" aria-label="Key value highlights">
               <div className="hero__feature-item">
                 <span className="hero__feature-dot" aria-hidden="true" />
-                Refined reporting for faster executive decisions
+                Accurate tax calculations and filing guidance
               </div>
               <div className="hero__feature-item">
                 <span className="hero__feature-dot" aria-hidden="true" />
-                Quietly proactive tax and compliance oversight
+                Business registration and company setup support
               </div>
               <div className="hero__feature-item">
                 <span className="hero__feature-dot" aria-hidden="true" />
-                Boutique bookkeeping and payroll coordination
+                Professional property surveys and documentation
               </div>
               <div className="hero__feature-item">
                 <span className="hero__feature-dot" aria-hidden="true" />
-                Strategic insight designed for sustainable growth
+                Compliance & regulatory advisory
               </div>
             </div>
 
             <div className="hero__trust-strip" aria-label="Business trust indicators">
               <article className="hero__trust-card">
                 <strong>15+ Years</strong>
-                <span>Hands-on finance and advisory leadership</span>
+                <span>Hands-on finance and advisory experience</span>
               </article>
               <article className="hero__trust-card">
-                <strong>Discreet Support</strong>
-                <span>Responsive, confidential, and detail-driven service</span>
+                <strong>Trusted Service</strong>
+                <span>Accurate calculations and reliable guidance</span>
               </article>
               <article className="hero__trust-card">
-                <strong>Boardroom Ready</strong>
-                <span>Clear numbers, strong controls, and decisive next steps</span>
+                <strong>Full Support</strong>
+                <span>Tax, business setup, and property solutions</span>
               </article>
             </div>
           </div>
@@ -98,26 +97,27 @@ export default function Home() {
             <div className="hero__visual-grid" aria-hidden="true" />
 
             <div className="hero__image-card">
-              <div className="hero__image-badge">Executive advisory</div>
+              <div className="hero__image-badge">Tax & Business</div>
               <img
                 src={accountantImage}
                 alt="Accounting professional reviewing client financial information"
               />
               <div className="hero__image-card-caption">
-                <span>Financial leadership</span>
-                <strong>Calm, confidential, and detail-led financial oversight</strong>
+                <span>Professional service</span>
+                <strong>Tax calculations, business setup, and property surveys</strong>
               </div>
             </div>
 
             <div className="hero__floating-card hero__floating-card--top">
-              <p>Private Client Service</p>
-              <strong>Responsive, discreet support</strong>
-              <span>Clear guidance whenever tax, payroll, or reporting requires attention.</span>
+              <p>Tax Services</p>
+              <strong>Accurate calculations</strong>
+              <span>Professional tax computation and filing support for individuals and businesses.</span>
             </div>
 
             <div className="hero__floating-card hero__floating-card--bottom">
-              <p>Boardroom Ready</p>
-              <strong>Reporting, tax, payroll &amp; compliance</strong>
+              <p>Business Setup</p>
+              <strong>Company registration</strong>
+              <span>Complete support for business formation and regulatory compliance.</span>
             </div>
 
             <div className="hero__snapshot-card">

@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="footer__brand-block">
           <h3>Acc. Busayo</h3>
           <p>
-            Trusted accounting and business advisory partner serving clients
-            across Nigeria.
+            Professional tax calculation, business registration, and property
+            survey services across Nigeria.
           </p>
 
           <div className="footer__socials" aria-label="Social media links">

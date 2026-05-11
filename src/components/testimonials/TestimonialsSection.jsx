@@ -9,8 +9,8 @@ export default function TestimonialsSection() {
       <Container>
         <SectionTitle
           eyebrow="Client Reviews"
-          title="Trusted by Business Owners Across Nigeria"
-          subtitle="Real feedback from clients who use our accounting, compliance, and advisory services."
+          title="Trusted by Clients Across Nigeria"
+          subtitle="Real feedback from clients who use our tax, business registration, and property survey services."
           align="center"
         />
 

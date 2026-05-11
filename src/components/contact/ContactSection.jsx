@@ -8,8 +8,8 @@ export default function ContactSection() {
       <Container>
         <SectionTitle
           eyebrow="Contact us"
-          title="Let's talk about your business goals"
-          subtitle="Share your needs and our team will reach out with the right accounting and advisory support."
+          title="Let's discuss your needs"
+          subtitle="Share your requirements for tax calculation, business registration, or property survey and our team will reach out with the right support."
           align="center"
         />
 
@@ -17,12 +17,12 @@ export default function ContactSection() {
           <article className="contact-card contact-card--info">
             <div className="contact-card__meta">
               <span>Fast response</span>
-              <span>Trusted Nationwide</span>
+              <span>Professional Service</span>
             </div>
             <h3>Get in touch</h3>
             <p>
               We usually respond within one business day. For urgent requests,
-              call us directly.
+              call us directly about tax, business, or property services.
             </p>
 
             <ul className="contact-list">

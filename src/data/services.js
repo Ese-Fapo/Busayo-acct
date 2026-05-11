@@ -5,15 +5,48 @@ import nairaImage from "../assets/images/nigerian-naira-money-bills-tax.webp";
 
 const services = [
   {
-    slug: "accounting-services",
-    title: "Accounting Services",
+    slug: "tax-calculation",
+    title: "Tax Calculation",
     description:
-      "Reliable financial reporting and account management tailored for businesses in Nigeria.",
+      "Accurate tax computations for individuals and businesses to ensure compliance with Nigerian tax regulations.",
     fullExplanation:
-      "We manage your core accounting cycle from transaction classification to month-end reporting, so your numbers stay accurate and decision-ready. You get clean financial statements, better visibility into profitability, and the confidence to present solid records to investors, partners, and regulators.",
+      "We provide precise tax calculations including income tax, VAT, and withholding tax. Our service ensures you meet your tax obligations accurately while identifying legitimate deductions and credits to optimize your tax position.",
     iconKey: "calculator",
     image: accountantImage,
-    imageAlt: "Accounting documents and calculator on desk",
+    imageAlt: "Tax calculation and computation documents",
+  },
+  {
+    slug: "business-registration",
+    title: "Business Registration",
+    description:
+      "Complete support for registering your business with CAC and obtaining all necessary licenses.",
+    fullExplanation:
+      "From company name reservation to CAC registration and tax identification, we guide you through the entire business setup process. We help with document preparation, regulatory filings, and ensure your business is fully compliant from day one.",
+    iconKey: "briefcase",
+    image: accountantAltImage,
+    imageAlt: "Business registration and company incorporation documents",
+  },
+  {
+    slug: "property-survey",
+    title: "Property Survey",
+    description:
+      "Professional property surveys and boundary verification for real estate transactions.",
+    fullExplanation:
+      "Our property survey service helps verify land boundaries, assess property conditions, and provide detailed survey reports. Whether you're buying, selling, or developing property, we ensure you have accurate information for secure transactions.",
+    iconKey: "home",
+    image: auditImage,
+    imageAlt: "Property survey and land boundary verification",
+  },
+  {
+    slug: "tax-advisory",
+    title: "Tax Advisory",
+    description:
+      "Smart tax planning and guidance to minimize risk while staying compliant with local regulations.",
+    fullExplanation:
+      "From tax planning to filing support, we guide your business on practical ways to remain compliant while optimizing obligations legally. We help you interpret regulatory updates, prepare accurate documentation, and reduce surprises during tax assessments.",
+    iconKey: "receipt",
+    image: nairaImage,
+    imageAlt: "Tax advisory and regulation reference material",
   },
   {
     slug: "book-keeping-services",
@@ -38,17 +71,6 @@ const services = [
     imageAlt: "Payroll and salary planning with Nigerian naira notes",
   },
   {
-    slug: "tax-advisory",
-    title: "Tax Advisory",
-    description:
-      "Smart tax planning and guidance to minimize risk while staying compliant with local regulations.",
-    fullExplanation:
-      "From tax planning to filing support, we guide your business on practical ways to remain compliant while optimizing obligations legally. We help you interpret regulatory updates, prepare accurate documentation, and reduce surprises during tax assessments.",
-    iconKey: "receipt",
-    image: nairaImage,
-    imageAlt: "Tax advisory and regulation reference material",
-  },
-  {
     slug: "audit-services",
     title: "Audit Services",
     description:
@@ -60,28 +82,6 @@ const services = [
     imageAlt: "Audit documents and compliance review desk",
   },
   {
-    slug: "budgeting-and-forecasting",
-    title: "Budgeting & Forecasting",
-    description:
-      "Data-informed budgeting and forecasting to help you make stronger financial decisions.",
-    fullExplanation:
-      "We design practical budgets and forward-looking forecasts aligned with your goals, market conditions, and cash flow realities. With scenario planning and periodic reviews, you can make smarter spending decisions and stay prepared for uncertainty.",
-    iconKey: "chart",
-    image: accountantImage,
-    imageAlt: "Business budgeting charts and forecasting workspace",
-  },
-  {
-    slug: "research-and-data-analytics",
-    title: "Research and Data Analytics",
-    description:
-      "Turn financial and business data into clear insights for strategy and performance.",
-    fullExplanation:
-      "We transform raw operational and financial data into clear dashboards and insights that support better strategy. This includes trend analysis, performance benchmarking, and targeted recommendations that help leadership act quickly and confidently.",
-    iconKey: "search",
-    image: accountantAltImage,
-    imageAlt: "Analyst reviewing business data and performance reports",
-  },
-  {
     slug: "business-consultancy",
     title: "Business Consultancy",
     description:
@@ -91,28 +91,6 @@ const services = [
     iconKey: "briefcase",
     image: accountantImage,
     imageAlt: "Business consultant presenting strategy plan",
-  },
-  {
-    slug: "hr-consultancy",
-    title: "HR Consultancy",
-    description:
-      "HR policy and workforce support to build compliant, productive, and people-first teams.",
-    fullExplanation:
-      "We support HR policy design, role structure, documentation standards, and employee process improvements that fit your business. The result is a more compliant and productive workforce with clearer expectations and stronger operational consistency.",
-    iconKey: "users",
-    image: accountantAltImage,
-    imageAlt: "HR team discussion and workforce planning session",
-  },
-  {
-    slug: "regulation-and-compliance",
-    title: "Regulation & Compliance",
-    description:
-      "Stay aligned with evolving financial and corporate compliance requirements in Nigeria.",
-    fullExplanation:
-      "We help your organization stay aligned with changing regulatory obligations through compliance checklists, process reviews, and risk controls. This reduces legal exposure, improves operational confidence, and protects your business reputation.",
-    iconKey: "scale",
-    image: auditImage,
-    imageAlt: "Compliance documentation and regulatory guidelines",
   },
 ];
 

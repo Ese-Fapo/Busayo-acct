@@ -9,6 +9,7 @@ export default function IconBox({
   footer,
   iconSize = 22,
   className = "",
+  badge = "",
 }) {
   const hasRenderableIconType =
     typeof Icon === "function" ||
@@ -27,6 +28,8 @@ export default function IconBox({
           />
         </div>
       ) : null}
+
+      {badge && <span className="icon-box__badge">{badge}</span>}
 
       <div className="icon-box__icon" aria-hidden="true">
         {hasRenderableIconType

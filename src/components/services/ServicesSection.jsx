@@ -10,8 +10,8 @@ export default function ServicesSection() {
       <Container>
         <SectionTitle
           eyebrow={<Link to="/services">What we do</Link>}
-          title="Professional Services for Growth"
-          subtitle="From core accounting to strategic advisory, we support businesses and teams across Nigeria."
+          title="Our Professional Services"
+          subtitle="Tax calculation, business registration, and property survey services for individuals and businesses across Nigeria."
           align="center"
         />
         <ServicesList services={services} />

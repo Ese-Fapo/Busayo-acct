@@ -27,8 +27,8 @@ export default function Services() {
       <Container>
         <SectionTitle
           eyebrow="What we do"
-          title="Full Service Breakdown"
-          subtitle="Explore how each service supports business growth, compliance, and long-term financial stability in Nigeria."
+          title="Our Services"
+          subtitle="Professional tax calculation, business registration, and property survey services to help individuals and businesses in Nigeria."
         />
 
         <div className="services-details">

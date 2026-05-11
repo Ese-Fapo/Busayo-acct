@@ -40,7 +40,7 @@ export default function ServiceArticle() {
             Back to full list
           </Link>
           <a href="/#contact" className="btn btn--primary">
-            Book Consultation
+            Get Started
           </a>
         </div>
       </Container>

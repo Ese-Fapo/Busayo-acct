@@ -39,6 +39,16 @@ export default function ServiceItem({ service }) {
   const Icon = iconMap[service.iconKey] ?? Briefcase;
   const navigate = useNavigate();
 
+  // Get category class and badge for special styling
+  const getCategoryInfo = (slug) => {
+    if (slug === "tax-calculation") return { class: "service-card--tax", badge: "Tax Expert", emoji: "💰" };
+    if (slug === "business-registration") return { class: "service-card--business", badge: "Business Setup", emoji: "🏢" };
+    if (slug === "property-survey") return { class: "service-card--property", badge: "Property Survey", emoji: "🏠" };
+    return { class: "", badge: "", emoji: "" };
+  };
+
+  const categoryInfo = getCategoryInfo(service.slug);
+
   const handleCardOpen = () => {
     navigate(`/services#${service.slug}`);
   };
@@ -53,7 +63,7 @@ export default function ServiceItem({ service }) {
   return (
     <li>
       <div
-        className="service-card-link"
+        className={`service-card-link ${categoryInfo.class}`}
         role="button"
         tabIndex={0}
         onClick={handleCardOpen}
@@ -66,6 +76,7 @@ export default function ServiceItem({ service }) {
           description={service.description}
           imageSrc={service.image}
           imageAlt={service.imageAlt}
+          badge={categoryInfo.badge}
           footer={
             <Link
               to={`/services/${service.slug}`}
