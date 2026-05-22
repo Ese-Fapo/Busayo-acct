@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <Container className="footer__inner">
         <div className="footer__brand-block">
-          <h3>ComplyPro</h3>
+          <h3><span className="brand">complypro<span className="brand__dot">.</span></span></h3>
           <p>
             Trusted compliance, tax, and business registration services across
             Nigeria.
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
       </Container>
       <p className="footer__copyright">
-        © {new Date().getFullYear()} ComplyPro. All rights reserved. This site
+        © {new Date().getFullYear()} <span className="brand">complypro<span className="brand__dot">.</span></span> All rights reserved. This site
         was created by{" "}
         <a
           className="footer__credit-link"

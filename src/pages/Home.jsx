@@ -31,7 +31,7 @@ export default function Home() {
             <h1>{formatText("Compliance-first tax, company setup, and property survey solutions.")}</h1>
 
             <p className="hero__lede">
-              ComplyPro helps individuals and businesses navigate tax obligations,
+              <span className="brand">complypro</span> helps individuals and businesses navigate tax obligations,
               company registration, and property documentation with professional
               compliance guidance and accurate results.
             </p>

@@ -17,19 +17,33 @@ export default function TestimonialsSection() {
         <div className="testimonials-grid">
           {testimonials.map((item) => (
             <article key={item.name} className="testimonial-card">
-              <div className="testimonial-card__top">
-                <div className="testimonial-card__google" aria-label="Google review">
-                  <span>G</span>
+              <div className="testimonial-card__header">
+                <div className="testimonial-card__avatar" aria-hidden>
+                  {item.name
+                    .split(" ")
+                    .map((n) => n[0])
+                    .slice(0, 2)
+                    .join("")
+                    .toUpperCase()}
                 </div>
-                <p>{item.timeAgo}</p>
-              </div>
 
-              <h3>{item.name}</h3>
-              <p className="testimonial-card__company">{item.company}</p>
+                <div className="testimonial-card__meta">
+                  <div className="testimonial-card__row">
+                    <h3>{item.name}</h3>
+                    <div className="testimonial-card__google" aria-label="Google review">
+                      <span>G</span>
+                    </div>
+                  </div>
+
+                  <p className="testimonial-card__company">
+                    {item.company} <span className="testimonial-card__time">· {item.timeAgo}</span>
+                  </p>
+                </div>
+              </div>
 
               <div className="testimonial-card__stars" aria-label={`${item.rating} star review`}>
                 {Array.from({ length: item.rating }).map((_, index) => (
-                  <Star key={`${item.name}-${index}`} size={15} fill="currentColor" />
+                  <Star key={`${item.name}-${index}`} size={16} fill="currentColor" />
                 ))}
               </div>
 

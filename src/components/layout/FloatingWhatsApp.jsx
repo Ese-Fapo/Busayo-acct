@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 const PHONE_NUMBER = "2348012345678";
 const MESSAGE = encodeURIComponent(
-  "Hello ComplyPro, I would like to inquire about your compliance and advisory services."
+  "Hello complypro., I would like to inquire about your compliance and advisory services."
 );
 
 export default function FloatingWhatsApp() {
