@@ -44,7 +44,7 @@ export default function ContactSection() {
                 <Mail size={18} />
                 <div>
                   <h4>Email</h4>
-                  <p>hello@accbusayo.com</p>
+                  <p>hello@complypro.com</p>
                 </div>
               </li>
               <li>

@@ -3,7 +3,7 @@ const testimonials = [
     name: "Chiamaka Okafor",
     company: "Okafor Retail Hub",
     rating: 5,
-    text: "Acc. Busayo helped us calculate our tax accurately and file properly. Their business registration service made setting up our company seamless.",
+    text: "ComplyPro helped us calculate our tax accurately and file properly. Their business registration service made setting up our company seamless.",
     timeAgo: "2 weeks ago",
   },
   {

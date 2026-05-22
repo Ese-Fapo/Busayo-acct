@@ -7,10 +7,10 @@ export default function Footer() {
     <footer className="footer">
       <Container className="footer__inner">
         <div className="footer__brand-block">
-          <h3>Acc. Busayo</h3>
+          <h3>ComplyPro</h3>
           <p>
-            Professional tax calculation, business registration, and property
-            survey services across Nigeria.
+            Trusted compliance, tax, and business registration services across
+            Nigeria.
           </p>
 
           <div className="footer__socials" aria-label="Social media links">
@@ -41,12 +41,12 @@ export default function Footer() {
         <div className="footer__contact">
           <h4>Contact</h4>
           <p>Lagos, Nigeria</p>
-          <a href="mailto:hello@accbusayo.com">hello@accbusayo.com</a>
+          <a href="mailto:hello@complypro.com">hello@complypro.com</a>
           <a href="tel:+2348012345678">+234 801 234 5678</a>
         </div>
       </Container>
       <p className="footer__copyright">
-        © {new Date().getFullYear()} Acc. Busayo. All rights reserved. This site
+        © {new Date().getFullYear()} ComplyPro. All rights reserved. This site
         was created by{" "}
         <a
           className="footer__credit-link"

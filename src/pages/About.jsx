@@ -9,11 +9,11 @@ export default function About() {
         <div>
           <SectionTitle
             eyebrow="About us"
-            title="Your Trusted Partner for Tax, Business & Property Services"
-            subtitle="We combine professional expertise with practical solutions to help individuals and businesses navigate tax, company registration, and property documentation."
+            title="Your Trusted Compliance Partner for Tax, Business & Property Services"
+            subtitle="We combine professional compliance expertise with practical solutions to help individuals and businesses navigate tax, company registration, and property documentation."
           />
           <p>
-            Acc. Busayo provides accurate tax calculations, complete business
+            ComplyPro provides accurate tax calculations, complete business
             registration support, and professional property surveys. We help
             our clients stay compliant, set up businesses properly, and make
             informed decisions about their real estate investments.

@@ -21,19 +21,19 @@ export default function Home() {
           <div className="hero__content">
             <div className="hero__intro">
               <p className="hero__eyebrow">
-                Lagos, Nigeria • Professional financial & property services
+                Lagos, Nigeria • Compliance, tax & company registration
               </p>
               <span className="hero__pill">
                 Tax Calculation • Business Registration • Property Survey
               </span>
             </div>
 
-            <h1>{formatText("Expert tax calculations, business setup, and property surveys.")}</h1>
+            <h1>{formatText("Compliance-first tax, company setup, and property survey solutions.")}</h1>
 
             <p className="hero__lede">
-              Acc. Busayo helps individuals and businesses navigate tax obligations,
+              ComplyPro helps individuals and businesses navigate tax obligations,
               company registration, and property documentation with professional
-              guidance and accurate results.
+              compliance guidance and accurate results.
             </p>
 
             <div className="hero__actions">

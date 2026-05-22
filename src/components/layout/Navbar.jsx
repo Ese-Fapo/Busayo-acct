@@ -23,7 +23,7 @@ export default function Navbar() {
     <header className={`navbar ${isScrolled ? "navbar--scrolled" : ""}`.trim()}>
       <Container className="navbar__inner">
         <Link to="/" className="navbar__brand" onClick={() => setOpen(false)}>
-          Acc. Busayo
+          ComplyPro
         </Link>
 
         <button
